@@ -1,0 +1,122 @@
+header{
+    background-image: url("dirt_0.png");
+    position: fixed;
+    height: 200px;
+    width: 100%;
+    border-radius: 10%;
+    background-repeat: repeat-x;
+}
+
+body {
+  color: #009;
+  font-size: 1em;
+  background-color: bisque;
+}
+
+body article header h1{
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding-top: 50px;
+}
+
+#feedHead, #homeButton{
+  margin-top: 218px;
+  margin-left: 360px;
+  color: green;
+  display: inline-block;
+}
+
+body h2{
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+#headerImage{
+  width: 80px;
+  height: 80px;
+  float: right;
+  border-radius: 75%;
+}
+
+#friendsList {
+  position: fixed;
+  width: 200px;
+  border-style: solid;
+  border-color: red;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
+
+#friendHead {
+  position: fixed;
+  margin-top: 220px;
+  color: red;
+  display: inline;
+}
+
+#feed {
+  margin-left: 360px;
+  padding: 100px;
+  display: inline-block;
+  border-style: solid;
+  border-color: green;
+  background-color: rgb(207, 205, 205);
+}
+
+footer ul li{
+  display: inline;
+  color:black;
+}
+
+footer ul{
+  text-align: center;
+}
+
+article header h1 {
+  padding: 0px;
+  text-shadow: 2px 2px #c61717;
+}
+
+button.friend {
+  display: block;
+  padding: 20px;
+  background-color: gainsboro;
+}
+
+button.active {
+  background-color: aqua;
+}
+
+div.post:hover {
+  background-color:yellow;
+}
+
+.fit-picture {
+  width: 250px;
+}
+
+/*   
+  table {
+    margin: .3em;
+    width: 290px;
+  }
+  
+  th {
+    padding: .2em;
+  }
+  
+  td {
+    background-color: #ffc;
+    border: 1px solid #900;
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+  
+  #trHeader {
+    color: #900;
+    text-decoration: underline;
+  }
+  
+  .centerCell {
+    text-align: center;
+  } */
